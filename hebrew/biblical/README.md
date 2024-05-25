@@ -43,6 +43,8 @@ The sighted Hebrew uses the same character for these two forms. The two values (
 
 - ו ⠺ dot 2456
 
+Note that the Vav can be accompanied by a Dagesh, in which case it becomes a vowel (Shuruq).
+
 ### Letter 7: Zayin
 
 - ז ⠵ dot 1356
@@ -154,7 +156,11 @@ Note that as Unicode is concerned, the Hebrew vowels are considered modifiers on
 
 - ֹ (holam) ⠕ dot 135
 
-- ֻ (Kubuts) ⠥ dot 146
+  Note that when the ֹ is part of a holam-vav and therefore followed by a ו (⠕⠺, dots 135-2456), this is usually contracted to ⠪ (dot 246)
+
+- ֻ (Kubuts) ⠥ dot 136
+
+- וּ (Shuruq) ⠬ dot 346
 
 - ְ (Sheva) ⠄ dot 3
 
