@@ -116,14 +116,24 @@ note that there is also a Final Pe (ף)
 
 ### Letter 21: Shin
 
-The Shin  has two braille forms:
+For Biblical Hebrew, the Shin has two forms that are also separated in most dictionaries (first all words with Sin, then all words with Shin). In other words, you could propose that Biblical Hebrew actually has 23 letters.
 
-- ש (Sin) ⠱ dot 156, only \u5E9
-- שׁ (Shin) ⠩ dot 146, usually constructed of two unicode characters, \u5E9 and \u5C1
+- The Sin variant has the Sin Dot modifier (ׂ, , \u5C2)
+- The Shin variant has the Shin Dot modifier (ׁ, \u5C1)
 
-### Letter 22: Tav (Numerical value 400)
+The undifferenciated variant (Shin without dot) is very rare, only known in the Biblical name יִשָּׂשכָר (Issachar).
 
-- ת ⠾ dot 1456
+The Shin  therefore has two braille forms:
+
+- ש (Sin) ⠱ dot 156
+- שׁ (Shin) ⠩ dot 146
+
+### Letter 22: Tav
+
+The Tav  has two braille forms:
+
+- תּ (Tav) ⠳ dot 1256
+- ת (Sav) ⠹ dot 1456
 
 ## Vowels
 
@@ -160,6 +170,7 @@ The same Hebrew character (ּ) is referred to in Unicode as Dagesh or Mapiq.
 
 - Dagesh ⠐ dot 5
 - Mapiq ⠘ dot 45
+
 
 ## Unicode modifier ordering
 
