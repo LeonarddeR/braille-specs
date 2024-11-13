@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Hebrew is a member of the Semitic language family, like Arabic and Aramaic. It has been written for nearly three thousand years, in which time the basic structure has remained stable but much has also changed. Originally, the Hebrew script was an abjad rather than an alphabet, meaning that it contained only consonants. The vowels were inferred with relative ease by native ancient speakers.
+Hebrew is a member of the Semitic language family, like Arabic and Aramaic.It has been written for nearly three thousand years, in which time the basic structure has remained stable but much has also changed. Originally, the Hebrew script was an abjad rather than an alphabet, meaning that it contained only consonants. The vowels were inferred with relative ease by native ancient speakers.
 
 Translating consonantal Hebrew into braille is relatively simple. Though Hebrew is written from right to left in visual script, the braille is written left to right like other braille systems. Hebrew has 22 consonants, each of which translates to a single braille cell. Several of these correspond to the same sounds in Hebrew as they do in languages based on the Latin alphabet. For example, the Hebrew letter ג (gimel), which makes the /g/ sound, is represented as ⠛ (dots 1245), ד (dalet),which makes a /d/ sound, as ⠙ (dots 145). However, some letters do not correspond and Hebrew uses sounds not common in European languages, so similar pronunciation cannot be assumed.
 
@@ -16,12 +16,15 @@ The following specification will follow this three-part division of the characte
 1. Consonants
 2. Vocalization (niqqud)
 3. Cantillation/accents (ta'amim)
+
 ## Consonants
 
 Note: several consonants have multiple pronunciations (similarly to the letter "c" in English). In purely consonantal Hebrew, the pronunciation of these consonants in a given word must be known or inferred from context. In vocalized texts, niqqud clarify the pronunciation. In braille, each pronunciation has its own single-cell braille character, but only in vocalized texts. In consonantal texts, the default is the version without the niqqud. These consonants include:
+
 1. The so-called begakkefat letters (bet, gimel, dalet, kaf, pe, and tav). Each of these letters has a plosive (hard) pronunciation and a spirantized (soft) pronunciation. Their pronunciation in a given word depends on the phonological environment (that is, the sounds that come before and after) and does not affect meaning on its own. IN the visual script, vocalized texts place a dot called a dagesh in the middle of the letter to indicate the plosive pronunciation. Without the dagesh, the pronunciation is spirantized. In antiquity, all six would have been pronounced differently, but In modern pronunciation, usually only bet, kaf, pe, and tav of the begadkefat letters have differentiated pronunciations. Thus, only these four have single-cell braille characters for their appearance with and without the dagesh. In unvocalized texts, the version without dagesh will appear and pronunciation must be inferred. 
 2. The letter sin/shin. This letter can be pronounced /s/ or /sh/. When pronounced /s/, it is called sin, and when pronounced /sh/, it is called shin. This distinction does affect meaning, and sin and shin words are listed separately in dictionaries. Unlike the begadkefat letters, there is no indeterminate version of this letter. In use, every one is either a sin or a shin. In vocalized visual Hebrew script, sin is marked by a dot above the left corner (the sin dot), while shin is marked by a dot above the right corner (the shin dot). Since shin is more common, it is considered the default, and the letter with no dot above is translated as a shin. 
 3. The letters waw and yod can behave as consonants but also frequently indicate vowels. The same is true, if more rarely, of aleph and he. In these cases, they are referred to as vowel letters (or matres lectionis, Latin for "mothers of reading"). In consonantal texts, this must be inferred from context. In vocalized texts, niqqud indicate pronunciation. In braille, the vowel point + consonant usually translates to a single-cell braille character.
+
 The niqqud points for all of these will be discussed further in the Vocalization section.
 
 ### Letter 1: Alef
